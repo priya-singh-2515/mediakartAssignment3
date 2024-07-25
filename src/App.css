@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+
+  display: flex;
+  mix-blend-mode: darken;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.content {
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.extra-content {
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.ad-container {
+  position: relative;
+  height: 400px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thar-image {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 200px;
+  transition: transform 0.1s ease-out;
+}
+
+.ad-text {
+  text-align: left;
+  padding: 20px;
+  max-width: 600px;
+}
